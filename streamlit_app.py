@@ -20,10 +20,11 @@ def main():
     st.title(":newspaper: Vietnamese fake news detector")
     sess = load_session()
 
-    #model_names = ["Logistic Regression Classifier", "Decision Tree Classification"]
+    #model_names = ["Logistic Regression Classifier", "Decision Tree Classification", "Naive Bayes Classification"]
     model_dict = {
             "Logistic Regression Classifier": "models/LRC.pkl",
-            "Decision Tree Classification": "models/DTC.pkl", 
+            "Decision Tree Classification": "models/DTC.pkl",
+	    "Naive Bayes Classification": "models/NBC.pkl", 
             }
     resources_dir = "resources"
 

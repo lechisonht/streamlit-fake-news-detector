@@ -3,7 +3,7 @@ import re
 import base64
 import requests
 import numpy as np
-import unidecode
+
 
 
 url = 'https://raw.githubusercontent.com/stopwords/vietnamese-stopwords/master/vietnamese-stopwords.txt'
